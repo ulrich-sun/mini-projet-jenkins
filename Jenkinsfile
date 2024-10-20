@@ -46,8 +46,8 @@ pipeline {
         }
          stage ('Deploy Review'){
             environment{
-                SERVER_IP = '54.211.208.96
-'                SERVER_USERNAME = 'ubuntu'
+                SERVER_IP = '54.211.208.96'
+                SERVER_USERNAME = 'ubuntu'
             }
             steps {
                 script{
@@ -97,8 +97,8 @@ pipeline {
          stage ('Deploy Prod'){
             // when {expression {GIT_BRANCH == 'origin/prod'}}
             environment{
-                SERVER_IP = '52.90.58.175
- '               SERVER_USERNAME = 'ubuntu'
+                SERVER_IP = '52.90.58.175'
+               SERVER_USERNAME = 'ubuntu'
             }
             steps {
                 script{
