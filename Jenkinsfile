@@ -1,4 +1,5 @@
-@Library('ulrich-shared-library')
+@Library('ulrich-shared-library')_
+
 pipeline {
     environment {
         IMAGE_NAME = 'webapp'
